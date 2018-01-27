@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+float d1,d2;
+cin >> d1; //d1
+cin >> d2; //d2
+
+float Perimeter = 4*(sqrt( pow((float(d1)/2),2) + pow((float(d2)/2),2)  ));
+float Surface = (d1 * d2) / 2;
+
+
+
+cout << Perimeter << " " << Surface << endl;
+}
