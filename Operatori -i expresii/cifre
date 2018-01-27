@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int x;
+cin >> x;
+  int  CifraUnit = x%10;
+  int  CifraZec = (x / 10) % 10;
+    int s = CifraUnit + CifraZec;
+    cout << s << endl;
+
+    return 0;
+}
