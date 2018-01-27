@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    unsigned long long int n;
+    cin >> n;
+
+   unsigned long long int d =  (n*(n-3))/2;
+
+   unsigned long long int u = (n-2)*180;
+
+    cout << d << endl << u << endl;
+
+
+}
