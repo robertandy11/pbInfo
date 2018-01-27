@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int a;
+cin >> a;
+
+int r = 2*a;
+int v = r - 3;
+
+cout << a + r + v << endl;
+
+return 0;
+
+}
