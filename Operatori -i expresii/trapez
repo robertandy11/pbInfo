@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+   float B,b,l;
+   cin >> B >> b >> l;
+
+   float LaturaMica = (B - b)/2;
+   float LaturaPerp = sqrt( pow(l,2) - pow(LaturaMica,2));
+
+   float Diagonala = sqrt( pow(LaturaPerp,2) + pow(b + LaturaMica,2));
+
+   cout << Diagonala << endl;
+
+
+}
