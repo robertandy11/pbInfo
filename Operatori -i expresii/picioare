@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+int G,O;
+cin >> G; cin >> O;
+//---
+
+int CapeteTotale = G + O;
+
+int PicioareTotatle = G*2 + O*4;
+
+cout << CapeteTotale << " " << PicioareTotatle << endl;
+
+//---
+return 0;
+}
