@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,m;
+    //n - nr. vagoane ; m - nr. marfa
+    cin >> n;
+    cin >> m;
+
+    int I = m / n;
+    //I - Incarcatura separata pe vagoane.
+
+    cout << I << endl;
+    return 0;
+}
