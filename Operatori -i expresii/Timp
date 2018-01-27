@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+// 1 zi = 1440 minute
+// 24 ore = 1440 minute
+// 1 ora = 60 minute
+int main()
+{
+    int h1,m1,x;
+    cin >> h1 >> m1 >> x;
+
+    int MinuteTotale = 0;
+    MinuteTotale = 60 * h1 + m1 + x;
+    int Zile = MinuteTotale / 1440;
+    MinuteTotale = MinuteTotale - Zile * 1440;
+
+    int h2,m2;
+    h2 = MinuteTotale / 60;
+    m2 = MinuteTotale % 60;
+
+    cout << h2 << " " << m2 << endl;
+}
