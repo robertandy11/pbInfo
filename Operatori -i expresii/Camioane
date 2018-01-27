@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int t1,t2,n,m,z;
+
+  cin >> t1 >> t2 >> n >> m >> z;
+
+  int marfa1 = n * t1;
+  int marfa2 = m * t2;
+  int marfatotala = (marfa1 + marfa2) * z;
+
+  cout << marfatotala << endl;
+}
