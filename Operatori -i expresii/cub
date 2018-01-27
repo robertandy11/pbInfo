@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int L;
+	cin >> L;
+
+	int S = L*L*6;
+	int V = L*L*L;
+
+cout << S <<" "<< V << endl;
+
+return 0;
+}
