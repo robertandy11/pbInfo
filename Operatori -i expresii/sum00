@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ int nr1,nr2;
+ cin >> nr1 ;
+ cin >> nr2 ;
+
+ cout << nr1 + nr2 << endl ;
+ return 0;   
+}
