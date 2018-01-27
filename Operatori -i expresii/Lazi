@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int l,h;
+cin >> l;
+cin >> h;
+
+//int volCam = l*l*h;
+//int volCutie = l*l*l;
+
+int n = h / l;
+
+cout << n << endl;
+
+return 0;
+}
